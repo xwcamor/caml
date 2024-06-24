@@ -10,7 +10,11 @@
     <div class="mb-3">
       <label for="disabledSelect" class="form-label">Disabled select menu</label>
       <select id="disabledSelect" class="form-select">
-        <option>Disabled select</option>
+        <option>Disabled select1</option>
+        <option>Disabled select2</option>
+        <option>Disabled select3</option>
+        <option>Disabled select4</option>
+        <option>Disabled select5</option>
       </select>
     </div>
 
