@@ -3,3 +3,8 @@ if contraseña_ingresada == contraseña_correcta:
 else:
     acceso_permitido = False
 
+
+
+
+
+esto es un codigo de seguridad jeje
