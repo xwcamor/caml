@@ -1,0 +1,10 @@
+if contraseña_ingresada == contraseña_correcta:
+    acceso_permitido = True
+else:
+    acceso_permitido = False
+
+
+jijiji
+
+
+esto es un codigo de seguridad jeje

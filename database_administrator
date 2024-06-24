@@ -1,0 +1,19 @@
+<h1>Joaquin<h1>
+-- Crear la base de datos (si no existe ya)
+CREATE DATABASE IF NOT EXISTS login_system;
+
+-- Usar la base de datos creada
+USE login_system;
+
+-- Crear la tabla para almacenar los usuarios
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL
+);
+
+-- Insertar algunos usuarios de ejemplo (puedes agregar más según necesites)
+INSERT INTO usuarios (username, password_hash) VALUES
+('usuario1', 'hashed_password1'),
+('usuario2', 'hashed_password2'),
+('usuario3', 'hashed_password3');
