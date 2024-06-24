@@ -4,7 +4,11 @@ else:
     acceso_permitido = False
 
 
+<<<<<<< patch-3
+feliz navidad
+=======
 jijiji
+>>>>>>> main
 
 
 esto es un codigo de seguridad jeje
