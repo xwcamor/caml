@@ -62,7 +62,7 @@
     <main>
         <form id="formContacto">
             <div>
-                <label for="nombre">Nombre:</label>
+                <label for="nombre">Nombr:</label>
                 <input type="text" id="nombre" name="nombre" required>
             </div>
             <div>
